@@ -1,16 +1,6 @@
 .mainbody{
     background-color:rgb(44, 40, 40);
 }
-.body-text{
-    font-family: Poppins;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    margin: 70px 30px 30px 30px;
-    color: rgb(255, 255, 255);
-}    
 .paragraph{
     text-align: justify;
     text-justify: inter-word;
@@ -33,18 +23,18 @@
     background-size: 400%;
     color: #fff;
     border: none;
-  }
+}
   
-  .button:hover::before {
+.button:hover::before {
     transform: scaleX(1);
-  }
+}
   
-  .button-resume {
+.button-resume {
     position: relative;
     z-index: 1;
-  }
+}
   
-  .button::before {
+.button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -57,7 +47,7 @@
     background: linear-gradient(
       82.3deg,
       rgb(174, 160, 196) 10.8%,
-        rgb(182, 179, 211) 94.3%
+      rgb(182, 179, 211) 94.3%
     );
     transition: all 0.475s;
   }
